@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StaffMainActivity">
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_contacts"
+        android:orderInCategory="100"
+        android:title="Change colors"
+        android:icon="@drawable/ic_event_black_24dp"
+        app:showAsAction="never" />
+    <!--<item-->
+        <!--android:id="@+id/action_add_task"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Add New Thing to Monitor"-->
+        <!--android:icon="@drawable/ic_action_add_circle"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_add_project"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Add New Project"-->
+        <!--android:icon="@drawable/ic_action_add_circle"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_add_monitor"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Add New Monitor"-->
+        <!--android:icon="@drawable/ic_action_add_person"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_add_staff"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Add New Supervisor"-->
+        <!--android:icon="@drawable/ic_action_add_person"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_help"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Help"-->
+        <!--android:icon="@drawable/ic_action_help"-->
+        <!--app:showAsAction="never" />-->
+</menu>

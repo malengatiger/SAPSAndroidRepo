@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.boha.sapslibrary">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name">
+        <activity android:name=".activities.IncidentMapActivity" />
+        <activity
+            android:name=".activities.PictureActivity"
+            android:label="@string/title_activity_picture"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.IncidentActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_incident"/>
+    </application>
+
+</manifest>
